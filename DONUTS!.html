@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DONUTS!</title>
+    <link rel="stylesheet" href="./DONUTS!_files/style.css">
+  </head>
+  <body>
+    <img src="./DONUTS!_files/donutLogo.png" c="" width="40%" id="logo" alt="Donut Logo">
+    <h3>DONUTS!</h3>
+    <ul>
+      <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+      <li><a href="http://127.0.0.1:5500/about.html">About</a></li>
+      <li><a href="http://127.0.0.1:5500/numbers.html">Numbers</a></li>
+      <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+    </ul>
+    <img src="./DONUTS!_files/donutBg.webp" width="100%" alt="Donut Background">
+    <br>
+    <h2>Featured products</h2>
+    <br>
+    <h3>Glazed Donut</h3>
+    <img src="./DONUTS!_files/glazedDonut.jpg" width="70%" alt="Glazed Donut">
+    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati illo tempora. Ab minima, aspernatur voluptates sit similique doloribus? Perferendis aperiam in, laborum laboriosam quaerat commodi hic ea tempora vel saepe iste labore reiciendis alias facere at ab aspernatur pariatur?</p>
+    <h3>Chocolate Filled Donut</h3>
+    <img src="./DONUTS!_files/chocoFilled.jpg" width="70%" alt="Chocolate Filled Donut">
+    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum laborum culpa repellat quod eos asperiores dolores perferendis vero, hic provident voluptatum aspernatur explicabo accusamus atque voluptatibus, unde mollitia tempora aperiam, dolor eaque.</p>
+    <h3>Sprinkled Donut</h3>
+    <img src="./DONUTS!_files/sprinkle.webp" width="70%" alt="Sprinkled Donut">
+    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sint illum sequi asperiores inventore accusamus provident minima, iure eveniet ad, aspernatur explicabo repudiandae molestias assumenda eaque quo. Labore quibusdam mollitia sapiente placeat nesciunt fugiat perferendis, nisi ea ex tempore rem.</p>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p>copyright ©2019</p>
+  <h4><a href="http://127.0.0.1:5500/index.html#logo">back to top</a></h4>
+
+</body></html>
